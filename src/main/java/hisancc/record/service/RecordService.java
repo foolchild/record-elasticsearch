@@ -1,7 +1,5 @@
 package hisancc.record.service;
 
-import hisancc.record.vo.SentenceVO;
-
 import java.util.List;
 import java.util.Map;
 
@@ -18,4 +16,8 @@ public interface RecordService {
     void delete(String recordId);
 
     void scroll();
+
+    void bool();
+
+    void count();
 }
